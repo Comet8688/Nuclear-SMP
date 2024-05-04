@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Grid Background</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: grid;
+    grid-template-rows: auto; /* Adjust as needed */
+    grid-template-columns: 1fr; /* Adjust as needed */
+    grid-template-areas:
+      "header"
+      "content";
+    min-height: 100px; /* Ensure the container fills the viewport height */
+  }
+
+  .header {
+    grid-area: header;
+    background-color: black; /* Background color for the header */
+    color: yellow; /* Text color for the header */
+    padding: 20px; /* Adjust as needed */
+    text-align: center;
+  }
+
+  .content {
+    grid-area: content;
+    padding: 20px; /* Adjust as needed */
+    background-color: yellow;
+    color: black;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header class="header">
+    <h1>Nuclear SMP</h1>
+    <!-- Add any content you want in the header here -->
+  </header>
+  
+  <div class="content">
+    <!-- Add your page content here -->
+    <p>Welcome to Nuclear SMP, a Minecraft survival multiplayer (SMP) server where the boundaries between life and death are blurred, and every action has consequences. In this dynamic world, players delve into a realm where the essence of survival intertwines with the supernatural.</p>
+
+        <p>Nuclear SMP isn't your typical survival server; it's a realm where the very fabric of reality is shaped by the players themselves. Here, amidst the towering landscapes and treacherous caves, lies a unique twist: the power of lifesteal. With each encounter, battles aren't just about skill, but about the exchange of life force itself.</p>
+        
+        <p>As you journey through Nuclear SMP, you'll forge alliances, face off against foes, and harness the mystical energy pulsating through the terrain. Whether you're a seasoned explorer or a newcomer to the craft, Nuclear SMP offers an immersive experience like no other, where every decision can either lead to prosperity or peril.</p>
+        
+        So, are you ready to embark on an adventure where the line between friend and foe is as thin as a blade's edge? Join us in Nuclear SMP and discover what mysteries await in this world where survival means much more than just staying alive.
+        
+        
+        
+        </p>
+  </div>
+</div>
+
+</body>
+</html>
+
